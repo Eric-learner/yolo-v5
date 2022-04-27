@@ -1,0 +1,18 @@
+yolov5已经做好的工作如下：
+已创建好的conda虚拟环境：liyunpeng_yolov5         
+虚拟空间保存位置：/home/dell/commonapps/anaconda3/envs/liyunpeng_yolov5
+激活虚拟空间：source activate liyunpeng_yolov5
+进入该目录：(liyunpeng_yolov5) dell@dell-PowerEdge-R720:/home/lyp/yolov5/yolov5
+测试：(liyunpeng_yolov5) dell@dell-PowerEdge-R720:/home/lyp/yolov5/yolov5$ python detect.py --source test.mp4
+结果：Speed: 0.6ms pre-process, 27.4ms inference, 1.5ms NMS per image at shape (1, 3, 640, 640)
+Results saved to runs/detect/exp5
+摄像头测试：python detect.py --source 0
+保存到本地：sz 【文件名】
+从本地上传文件：sudo rz
+退出：conda deactivate
+遇到问题及解决：
+1.代码无权限创建文件夹：
+参考：
+https://www.cnblogs.com/w-j-q/p/14832050.html
+2.使用sudo +命令
+
